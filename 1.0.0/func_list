@@ -1,0 +1,43 @@
+function array_push_assoc(&$array, $key, $val)
+function deleteTodos_Form(){
+#	function deleteTodos_Form()		 //Form wrapper for deleteTodos
+#	function deleteTodos($tdID)		 //Delete a Todos record or records
+function deleteTodos($tdID,$td_type,$td_class){
+function findTodos($sql){
+function fixFormVars(&$formVars){
+#	function fixFormVars(&$formVars)	 //fix variables passed in by an HTML form
+function getTodos_Form(){
+#	function getTodos()			 //Retrieve Todos record(s) 
+function getTodos($rs,$debug=0){
+function insertTodos_Form(){
+#	function insertTodos_Form()		 //Form wrapper for insertTodos
+#	function insertTodos()			 //Insert Todos record(s)
+function insertTodos($page_id,$td_type,$td_class,$td_link,$td_url,$td_title,$site_root="www"){
+function modifyTodos_Form(){
+#	function modifyTodos_Form()		 //Form wrapper for modifyTodos
+#	function modifyTodos()			 //Modify Todos record(s)
+function modifyTodos($page_id,$td_type,$td_class,$td_link,$td_url,$td_title,$tdID='%'){ // modify an existing todos
+#	function navProducts($nav_bar){
+function printSearchResults($td){
+#	function printSelect() 			// Print a select HTML form object
+function printSelect($select_name,$table,
+function printTodos($td){
+#	function printTodos($td)		 //print an array of todos records to html table
+function todosGetCatVal($catPID,$pname){
+function todosGetClassHash($pid,$class,$sql_add='',$debug=0){
+function  todosGetClassList($eoClass,$tdType='',$depth=0,$debug=0){
+#	function todosGetField() 		// Get a field value from a todos record
+function todosGetField($page_id,$fld,$td_type='',$td_class='',$p_name='',$debug=0){
+function todosGetPID_Title($title,$class='idx0'){
+function todosGetRS($page_id='',$td_type='%',$td_class='',$p_name='',
+function todosGetTitle($page_id){
+#	function todosGetTitle($page_id) 	// Get and return the idx0 tdTitle field for pid
+function todosGetURL($pid,$tdtype='idx0',$class='',$pname='',$debug=0){
+function todosGetVal($pid,$idx,$class='',$pname,$valtype='url'){
+function todosListCategory($cat_name='',$cat_pid='',$class='',$colNames='',$tdFmt=0,$rspage=1){
+function todosListCategory_Form(){
+function todosListClassHash($TD,$class,$cols='*',$debug=0){
+function todosNavBlock($rs){
+function todosSearch($td_title='',$srch_terms='',$td_class='',
+function todosSelectCategory($curr_val=''){
+// This function takes an arry by reference and fixes values in the array
