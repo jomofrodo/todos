@@ -1,7 +1,4 @@
-todos
-=====
-
-A generic cms for managing EVERYTHINGTodos
+Todos
 John Moore
 July 2005
 
